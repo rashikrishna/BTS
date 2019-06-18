@@ -4,6 +4,7 @@ h1{
 	font-weight: bold;
 }
 body{
+	background: #282b34;
 	padding: 50px;
 	font-family: sans-serif;
 	border: 2px solid black;
@@ -12,4 +13,12 @@ body{
 #p1,#p2{
 	font-size:20px
 
+}
+img{
+	align-items: center;
+}
+form{
+	padding: 50px;
+	border: 2px solid grey;
+	width: 200px;
 }
