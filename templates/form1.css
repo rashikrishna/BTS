@@ -1,0 +1,82 @@
+%message{
+	font-style: italic;
+	font-family: serif;
+	font-display: block;
+}
+body{
+	@extend %message;
+	background-color: #282b34;
+	font-size: 20px;
+	padding: 50px;
+	font-family: sans-serif;
+	border: 2px solid black;
+	font-weight: bold;
+	height:100%
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: green;
+}
+	h1{
+		color: black;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.forms{
+		display: flex;
+		width: 50%;
+		margin:auto;
+		text-align: center;
+	}
+	#p1,#p2{
+		font-size:20px
+
+	}
+	img{
+		align-items: center;
+		height: 400px;
+		width:auto;
+	}
+
+	.signin{
+		margin-left: auto;
+	}
+
+
+	form{
+
+		padding: 50px;
+		border: 2px solid grey;
+		width: auto;
+	}
+
+a{
+	font-size: 40px;
+	font-weight: bold;
+	align-items: center;
+}
+
+a:hover{
+		background-color: white;
+}
+
+@media print{
+	a:hover{
+		display:none;
+}
+}
+
+
+div{
+
+}
