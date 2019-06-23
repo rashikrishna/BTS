@@ -1,17 +1,18 @@
-%message{
+/*%message{
 	font-style: italic;
 	font-family: serif;
 	font-display: block;
-}
+}*/
 body{
 	@extend %message;
-	background-color: #282b34;
-	font-size: 20px;
+	/*font-size: 20px;
+	font-family: sans-serif;*/
+	/*background-color: #282b34;*/
 	padding: 50px;
-	font-family: sans-serif;
+	text-align: center;
 	border: 2px solid black;
 	font-weight: bold;
-	height:100%
+	height:auto;
 }
 .button {
   background-color: #4CAF50;
