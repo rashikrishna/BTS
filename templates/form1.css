@@ -10,9 +10,9 @@ body{
 	/*background-color: #282b34;*/
 	padding: 50px;
 	text-align: center;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	font-weight: bold;
-	height:auto;
+
 }
 .button {
   background-color: #4CAF50;
